@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud Area Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Cloud Area Calculator</h1>
+      <p class="subtitle">
+        Frontend hosted on Azure Web App. Backend calculation handled by Azure Function.
+      </p>
+
+      <label for="shape">Shape</label>
+      <select id="shape">
+        <option value="rectangle">Rectangle</option>
+        <option value="triangle">Triangle</option>
+        <option value="circle">Circle</option>
+      </select>
+
+      <div id="inputs" class="inputs"></div>
+
+      <button id="calculateBtn">Calculate area</button>
+
+      <div id="result" class="result">Result will appear here.</div>
+      <div id="status" class="status"></div>
+    </section>
+
+    <section class="info">
+      <h2>Project architecture</h2>
+      <ul>
+        <li><strong>Frontend:</strong> HTML, CSS, JavaScript on Azure Web App</li>
+        <li><strong>Backend:</strong> Python Azure Function HTTP Trigger</li>
+        <li><strong>Automation:</strong> GitHub Actions CI/CD</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

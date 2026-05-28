@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+antenv/
+
+# Azure Functions local files
+local.settings.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
