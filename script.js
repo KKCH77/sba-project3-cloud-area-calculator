@@ -1,7 +1,7 @@
 // IMPORTANT:
 // After you create the Azure Function, replace this value with your real Function App URL.
 // Example: https://sba-calculate-area.azurewebsites.net/api
-const API_BASE_URL = "https://YOUR-FUNCTION-APP.azurewebsites.net/api";
+const API_BASE_URL = "https://kargo-area-api-d0cmeea3e4dtfzcv.swedencentral-01.azurewebsites.net/api";
 
 const shapeSelect = document.getElementById("shape");
 const inputsDiv = document.getElementById("inputs");
